@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cabine do Glória FC — Bot Discord Copa 2026
 
 Bot modular para servidor de torcida/comentários da Copa 2026. O MVP usa **Node.js**, **discord.js**, **slash commands**, **dotenv** e arquivos **JSON locais**.
@@ -203,3 +204,6 @@ Total: **104 jogos**.
 - Integrar API externa de resultados ao vivo.
 - Criar alertas de escalação e fim de jogo.
 - Criar cargo automático para campeões do bolão.
+=======
+# CopaBot
+>>>>>>> 78d5c8a4f61211a0c90b26e9d1999c3be617e431
