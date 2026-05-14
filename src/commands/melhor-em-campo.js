@@ -1,0 +1,17 @@
+const { SlashCommandBuilder } = require('discord.js');
+const { findMatch, autocompleteMatches } = require('../services/jogosService');
+const { createReactionPoll } = require('../services/enqueteService');
+const { errorEmbed } = require('../utils/embeds');
+
+module.exports = {
+  data: new SlashCommandBuilder()
+    .setName('melhor-em-campo')
+    .setDescription('Cria enquete de melhor em campo para um jogo.')
+    .addStringOption(opt => opt.setName('jogo').setDescription('Jogo').setRequired(true).setAutocomplete(true)),
+  async autocomplete(interaction) { await interaction.respond(autocompleteMatches(interaction.options.getFocused())); },
+  async execute(interaction) {
+    const match = findMatch(interaction.options.getString('jogo'));
+    if (!match) return interaction.reply({ embeds: [errorEmbed('Jogo não encontrado', 'Use o autocomplete para escolher um jogo válido.')], ephemeral: true });
+    await createReactionPoll(interaction, `Melhor em campo: ${match.time1} x ${match.time2}`, [match.time1, match.time2, 'Outro jogador']);
+  }
+};

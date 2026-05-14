@@ -1,0 +1,28 @@
+[
+  {
+    "matchId": "2026-06-13-grupo-c-brasil-marrocos",
+    "transmissao": [
+      "Globo",
+      "SporTV",
+      "CazéTV"
+    ],
+    "observacoes": "Exemplo editável. Confirme a grade oficial antes do jogo."
+  },
+  {
+    "matchId": "2026-06-19-grupo-c-brasil-haiti",
+    "transmissao": [
+      "Globo",
+      "SporTV"
+    ],
+    "observacoes": "Exemplo editável."
+  },
+  {
+    "matchId": "2026-06-24-grupo-c-escocia-brasil",
+    "transmissao": [
+      "Globo",
+      "SporTV",
+      "Globoplay"
+    ],
+    "observacoes": "Exemplo editável."
+  }
+]

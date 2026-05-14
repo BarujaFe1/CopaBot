@@ -1,0 +1,110 @@
+[
+  {
+    "nome": "Grupo A",
+    "times": [
+      "México",
+      "África do Sul",
+      "Coreia do Sul",
+      "Tchéquia"
+    ]
+  },
+  {
+    "nome": "Grupo B",
+    "times": [
+      "Canadá",
+      "Bósnia",
+      "Catar",
+      "Suíça"
+    ]
+  },
+  {
+    "nome": "Grupo C",
+    "times": [
+      "Brasil",
+      "Marrocos",
+      "Haiti",
+      "Escócia"
+    ]
+  },
+  {
+    "nome": "Grupo D",
+    "times": [
+      "Estados Unidos",
+      "Paraguai",
+      "Austrália",
+      "Turquia"
+    ]
+  },
+  {
+    "nome": "Grupo E",
+    "times": [
+      "Alemanha",
+      "Curaçao",
+      "Costa do Marfim",
+      "Equador"
+    ]
+  },
+  {
+    "nome": "Grupo F",
+    "times": [
+      "Holanda",
+      "Japão",
+      "Suécia",
+      "Tunísia"
+    ]
+  },
+  {
+    "nome": "Grupo G",
+    "times": [
+      "Bélgica",
+      "Egito",
+      "Irã",
+      "Nova Zelândia"
+    ]
+  },
+  {
+    "nome": "Grupo H",
+    "times": [
+      "Espanha",
+      "Cabo Verde",
+      "Arábia Saudita",
+      "Uruguai"
+    ]
+  },
+  {
+    "nome": "Grupo I",
+    "times": [
+      "França",
+      "Senegal",
+      "Iraque",
+      "Noruega"
+    ]
+  },
+  {
+    "nome": "Grupo J",
+    "times": [
+      "Argentina",
+      "Argélia",
+      "Áustria",
+      "Jordânia"
+    ]
+  },
+  {
+    "nome": "Grupo K",
+    "times": [
+      "Portugal",
+      "RD Congo",
+      "Uzbequistão",
+      "Colômbia"
+    ]
+  },
+  {
+    "nome": "Grupo L",
+    "times": [
+      "Inglaterra",
+      "Croácia",
+      "Gana",
+      "Panamá"
+    ]
+  }
+]

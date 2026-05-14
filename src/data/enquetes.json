@@ -1,0 +1,36 @@
+{
+  "1504289924684189816": {
+    "guildId": "1504274340731031605",
+    "channelId": "1504274773562232842",
+    "messageId": "1504289924684189816",
+    "question": "vai corinthians?",
+    "options": [
+      "VAI",
+      "VAMO"
+    ],
+    "emojis": [
+      "1️⃣",
+      "2️⃣"
+    ],
+    "createdBy": "399411726291828746",
+    "createdAt": "2026-05-14T01:09:59.209Z"
+  },
+  "1504290063293481111": {
+    "guildId": "1504274340731031605",
+    "channelId": "1504274773562232842",
+    "messageId": "1504290063293481111",
+    "question": "Melhor em campo: México x África do Sul",
+    "options": [
+      "México",
+      "África do Sul",
+      "Outro jogador"
+    ],
+    "emojis": [
+      "1️⃣",
+      "2️⃣",
+      "3️⃣"
+    ],
+    "createdBy": "399411726291828746",
+    "createdAt": "2026-05-14T01:10:33.493Z"
+  }
+}

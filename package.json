@@ -1,0 +1,21 @@
+{
+  "name": "cabine-gloria-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord modular para acompanhar a Copa 2026 na Cabine do Glória FC.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "validate:data": "node scripts/validate-data.js",
+    "export:code": "node scripts/export-code-to-md.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "luxon": "^3.5.0"
+  }
+}
